@@ -1,0 +1,15 @@
+.footer{ 
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 30px;
+}
+.footer .text{ 
+    display: flex;
+    justify-content: center;
+}
+.footer .logosRedes { 
+    margin: 0 1em;
+}
+.footer .conjuntoLogos { 
+    display: flex;
+    justify-content: center;
+}

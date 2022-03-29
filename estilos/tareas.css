@@ -1,0 +1,29 @@
+.tareas{ 
+    margin-top: 1.5em;
+}
+.tareas .listaTareas{ 
+    display: inline;
+    list-style:none;
+}
+.tareas .listaTareas .tarjetaTarea{ 
+    margin: 0 3% 3% 3%;    
+}
+.tareas .listaTareas .tarjetaTarea .contenedor{ 
+    background-color: rgba(102, 102, 102, 0.329);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+} 
+.tareas .listaTareas .tarjetaTarea .contenedor .text{ 
+    font-size: 1.2em;    
+}
+.checkBlue{
+    background-color: blue;
+}
+.date{
+    width: 100%;
+    padding: 0 0 2% 4%;
+}

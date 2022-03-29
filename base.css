@@ -1,0 +1,12 @@
+body{ 
+    background-image: url(images/fondodegrade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-family: 'Fredoka', sans-serif;
+}
+.contenedorPrincipal{ 
+    background-color: rgba(255, 255, 255, 0.363);
+    margin: 5% 20% 5% 20%;
+    border-radius: 30px;
+}

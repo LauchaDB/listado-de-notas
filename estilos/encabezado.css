@@ -1,0 +1,8 @@
+.encabezado{ 
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.encabezado .imagenEncabezado{ 
+    width: 30%;
+}

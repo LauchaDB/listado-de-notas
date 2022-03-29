@@ -1,0 +1,26 @@
+.cargarTareas{ 
+    width: 100%;  
+}
+.cargarTareas .form{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.cargarTareas .form .input{ 
+    width: 50%;
+    background-color: #6868688f;
+    border: 1px hidden #999;
+    border-radius: 10px;
+}
+.cargarTareas .form .btnCreartarea{ 
+    background-color: #b4231e9c;
+    color: black;
+    width: 14%;
+    border-radius: 10px;
+}
+.cargarTareas .form .fecha{ 
+    background-color: dimgrey; 
+    border: 1px hidden #999;
+    border-radius: 5px;
+ }

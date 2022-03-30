@@ -23,4 +23,23 @@
     background-color: dimgrey; 
     border: 1px hidden #999;
     border-radius: 5px;
- }
+}
+
+@media screen and (max-width: 800px){
+   
+    .cargarTareas .form{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cargarTareas .form .input, .fecha{ 
+        width: 93%;
+        height: 2em;
+        margin: 0 0 1em 1em;
+    }
+    .cargarTareas .form .btnCreartarea{ 
+        width: 93%;
+        height: 2em;
+        margin: 0 0 1em 1em;
+    }   
+}

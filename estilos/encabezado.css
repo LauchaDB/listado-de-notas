@@ -4,5 +4,12 @@
     justify-content: center;
 }
 .encabezado .imagenEncabezado{ 
-    width: 30%;
+    width: 40%;
+}
+
+@media screen and (max-width: 800px){
+
+    .encabezado .imagenEncabezado{ 
+        width: 50%;
+    }
 }

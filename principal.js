@@ -56,12 +56,13 @@ const crearTarea = ({valorIngresado, date, complete, id}) => {
 
     let p = document.createElement("p");
     p.classList.add("text" , "col-8");
+    p.style.wordBreak = "break-word";
     p.textContent = valorIngresado;
 
     let img = document.createElement("img");
     img.src = "images/logook.png";
     img.classList.add("col-1", "logoOk")
-    img.style.width = "7%";
+    img.style.width = "auto";
     if(complete){
         img.src = "images/logoOkAzul.png";
     }
@@ -91,7 +92,7 @@ const crearTarea = ({valorIngresado, date, complete, id}) => {
     let img2 = document.createElement("img");
     img2.src = "images/delete.png";
     img2.classList.add("col-1", "logoDelete");
-    img2.style.width = "7%";
+    img2.style.width = "auto";
     img2.onclick = eliminarTarea;
     function eliminarTarea(){
 
